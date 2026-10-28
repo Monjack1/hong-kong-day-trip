@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f7f5ee">
+  <title>香港一日漫游 · 沿路吃，慢慢逛</title>
+  <meta name="description" content="从旺角早茶到太平山夜景的香港一日地图。09:15早茶可选伦敦大酒楼或金苑酒家，沿线餐厅备选、天星小轮、中环散步与湾仔购物，一张地图轻松查。">
+  <style>
+:root{--paper:#f7f5ee;--white:#fffefa;--ink:#263b35;--muted:#7b8277;--line:#e5e6dc;--orange:#cf6542;--orange-light:#fbede4;--green:#276252;--water:#c9e4e6;--shadow:0 8px 30px #2e3f3210;font-family:'Noto Sans SC',-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;color:var(--ink);background:var(--paper);font-synthesis:none}*{box-sizing:border-box}body{margin:0}button,input,a{-webkit-tap-highlight-color:transparent}button,input{font:inherit}button{cursor:pointer;color:inherit}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #e59264;outline-offset:3px}a{color:inherit;text-decoration:none}button{border:0;background:none}button:disabled{cursor:default}svg{width:18px;height:18px;flex-shrink:0}button,a,input{touch-action:manipulation}[hidden]{display:none!important}.topbar{height:91px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;max-width:1600px;margin:0 auto;padding:0 44px;gap:20px}.brand{display:flex;align-items:center;gap:12px;font-size:20px;font-weight:800;letter-spacing:1px}.brand-symbol{background:var(--orange);color:#fff9ec;width:43px;height:46px;display:grid;place-items:center;border-radius:13px 13px 13px 3px;font-size:26px;font-family:serif;font-weight:600;transform:rotate(-5deg)}.brand small{display:block;font-size:8px;font-weight:600;letter-spacing:2px;margin-top:4px;color:var(--muted)}.trip-date{display:flex;gap:12px;align-items:center;font-size:13px;font-weight:600}.trip-date small{display:block;font-size:10px;font-weight:400;color:var(--muted);margin-top:3px}.sun-symbol{font-size:31px;color:#b18b41;font-weight:400}.header-actions{display:flex;align-items:center;gap:12px}.button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:39px;padding:10px 15px;border-radius:8px;font-size:12px;font-weight:500;transition:background .2s,transform .2s}.button:hover{transform:translateY(-1px)}.button.quiet{border:1px solid var(--line);background:var(--white)}.button b{font-size:10px;display:grid;place-items:center;min-width:18px;height:18px;background:#eeeae0;border-radius:20px}.button.dark{background:var(--ink);color:#fff}.button.dark:hover{background:var(--green)}main{max-width:1600px;margin:auto;padding:0 44px}.intro{padding:32px 0 26px;display:flex;align-items:center;justify-content:space-between}.eyebrow{font-size:10px;letter-spacing:2px;color:var(--orange);margin:0 0 10px;font-weight:600;display:flex;gap:7px;align-items:center}.eyebrow span{width:6px;height:6px;background:var(--orange);border-radius:50%}h1{margin:0;font-size:36px;font-family:'Noto Serif SC','Songti SC',serif;letter-spacing:1px;line-height:1.5;font-weight:700}h1 span{color:var(--green)}.intro-description{margin:10px 0 0;font-size:12px;line-height:1.9;color:#6c756b}.trip-stamp{border:1px solid #b6b8a5;color:#76836b;border-radius:50%;width:108px;height:108px;display:flex;flex-direction:column;justify-content:center;align-items:center;transform:rotate(10deg);margin-right:25px;flex-shrink:0;background:radial-gradient(circle at center,transparent 63%,#b6b8a520 64%)}.trip-stamp>span{font-size:7px;letter-spacing:2px}.trip-stamp strong{font-family:serif;font-size:24px;line-height:1.05;letter-spacing:4px;margin:6px 0}.trip-stamp small{font-size:7px;letter-spacing:1px}.route-ribbon{display:flex;align-items:center;background:var(--white);border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin-bottom:22px;gap:4px;overflow-x:auto;scrollbar-width:none;box-shadow:0 4px 18px #34433003}.route-ribbon button{display:flex;align-items:center;gap:10px;padding:8px 12px;flex:1;white-space:nowrap;text-align:left;border-radius:8px;transition:background .2s}.route-ribbon button:hover{background:#f4f4ed}.route-ribbon button.active{background:#edf0e8}.route-ribbon .route-all{flex:0;font-size:11px;justify-content:center;padding:12px;min-width:87px;color:var(--green);font-weight:600;margin-right:6px}.route-ribbon i{font-family:Georgia,serif;font-size:18px;font-style:normal;color:var(--area);border:1px solid color-mix(in srgb,var(--area) 30%,transparent);border-radius:50%;width:32px;height:32px;display:grid;place-items:center;flex-shrink:0}.route-ribbon button.active i{background:var(--area);color:#fff}.route-ribbon button>span{font-size:12px;font-weight:600}.route-ribbon small{display:block;font-size:9px;font-weight:400;color:var(--muted);margin-top:4px}.route-arrow{font-size:15px;color:#a2aa9b}.workspace{display:grid;grid-template-columns:384px minmax(0,1fr);gap:22px;align-items:start}.places-panel{background:var(--white);border:1px solid var(--line);border-radius:13px;overflow:hidden;box-shadow:var(--shadow)}.panel-tabs{display:flex;gap:4px;padding:0 17px;border-bottom:1px solid var(--line);height:56px}.panel-tabs button{padding:16px 5px 13px;margin-right:12px;font-size:12px;color:var(--muted);border-bottom:2px solid transparent;white-space:nowrap}.panel-tabs button[aria-selected=true]{color:var(--ink);border-bottom-color:var(--orange);font-weight:700}.panel-tabs button span{font-size:9px;background:#eeeede;border-radius:5px;padding:2px 5px;margin-left:3px}.search-wrap{margin:18px 17px 12px;border:1px solid var(--line);background:#f9f9f3;border-radius:8px;display:flex;gap:9px;align-items:center;padding:0 11px;height:40px;color:#92988b}.search-wrap input{border:0;background:none;outline:none!important;width:100%;min-width:0;color:var(--ink);font-size:11px;height:100%}.search-wrap input::placeholder{color:#92988b}.search-wrap button{font-size:18px}.category-filters{display:flex;flex-wrap:wrap;gap:6px;padding:0 17px 13px}.category-filters button{padding:5px 9px;border:1px solid var(--line);border-radius:6px;font-size:10px;color:#7c8277;white-space:nowrap}.category-filters button.active{border-color:var(--green);background:var(--green);color:#fff}.category-filters button:hover{border-color:var(--green)}.results-heading{display:flex;align-items:center;justify-content:space-between;padding:4px 19px 12px;font-size:10px;color:#888f83}.results-heading button{font-size:10px;color:var(--green);padding:0}.places-list{height:540px;overflow-y:auto;padding:0 12px 12px;scrollbar-width:thin;scrollbar-color:#d9ddcf transparent}.place-card{border:1px solid var(--line);border-radius:10px;margin:0 3px 9px;padding:14px 13px 12px;position:relative;background:white;transition:border-color .2s,box-shadow .2s;cursor:pointer;scroll-margin:10px}.place-card:hover{border-color:#bac6b3;box-shadow:0 4px 15px #273b3510}.place-card.selected{border-color:var(--orange);box-shadow:0 0 0 1px #cf65421a;background:#fffdf9}.place-card.recommended{border-color:#e5c7ad;background:linear-gradient(125deg,#fff6ed,#fffdf9 75%)}.card-top{display:flex;align-items:flex-start;gap:10px}.card-icon{width:33px;height:35px;border-radius:9px;background:#f9eee6;color:var(--orange);display:grid;place-items:center;flex-shrink:0}.card-icon.explore{background:#eaf1e7;color:#6c8961}.card-icon.transit{background:#e7f1f2;color:#4c8890}.card-icon svg{width:18px;height:18px}.card-title-area{flex:1;min-width:0}.card-title-area h3{margin:0 0 4px;font-size:13px;line-height:1.5;font-weight:700}.card-subtitle{font-size:9px;color:var(--muted);line-height:1.4}.save-place{padding:2px 0 2px 4px;color:#a8ad9e}.save-place svg{width:17px;height:17px}.save-place.saved{color:var(--orange)}.save-place.saved svg{fill:var(--orange);stroke:var(--orange)}.badge-line{display:flex;gap:5px;flex-wrap:wrap;margin-top:10px}.badge{font-size:9px;padding:3px 6px;background:#f0f2ea;border-radius:4px;color:#6d7964}.badge.orange{background:#f9e5d7;color:#b45f36}.badge.blue{background:#eaf1f1;color:#4d818a}.card-note{font-size:10px;line-height:1.9;color:#70796c;margin:8px 0 8px}.card-address{font-size:9px;line-height:1.7;color:#8f948b;display:flex;gap:4px;align-items:flex-start}.card-address svg{width:11px;height:14px;margin-top:1px}.card-footer{display:flex;justify-content:space-between;align-items:center;border-top:1px solid #efefe8;padding-top:9px;margin-top:9px;gap:8px}.card-hours{font-size:9px;color:#76806e;display:flex;align-items:center;gap:4px;line-height:1.5}.card-hours svg{width:11px;height:11px}.nav-link{font-size:10px;color:var(--green);font-weight:600;display:flex;align-items:center;gap:3px;white-space:nowrap}.nav-link svg{width:12px;height:12px}.empty-state{padding:50px 20px;text-align:center}.empty-state .empty-icon{font-size:30px;color:#b6bfa7;margin-bottom:12px}.empty-state h3{font-size:14px;margin:0 0 8px}.empty-state p{font-size:11px;line-height:1.9;color:var(--muted)}.empty-state button{margin-top:12px;background:var(--green);color:white;border-radius:6px;padding:8px 14px;font-size:11px}.map-panel{position:sticky;top:16px;border:1px solid var(--line);border-radius:13px;background:var(--white);box-shadow:var(--shadow);overflow:hidden}.map-top{height:55px;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:0 18px}.map-top>div{display:flex;align-items:center;gap:8px;min-width:0}.map-top strong{font-size:11px;white-space:nowrap}.map-live-dot{width:6px;height:6px;background:var(--green);border-radius:50%}.map-count{font-size:9px;color:var(--muted);white-space:nowrap}.map-fit{font-size:10px;padding:5px 0;min-height:30px;color:#6b7567}.map-fit svg{width:13px;height:13px}#map{height:628px;background:#e8ede4;isolation:isolate;z-index:0}.map-loading{height:100%;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:13px;color:#7c8975;background:radial-gradient(ellipse at 60% 55%,#d1e4e4,#e9eee5 60%)}.map-loading strong{font-size:15px}.map-loading span{font-size:11px}.loading-compass{width:55px;height:55px;border:1px solid #92aba0;border-radius:50%;display:grid;place-items:center;font-size:24px;font-family:serif}.map-hint{position:absolute;bottom:51px;left:16px;right:16px;z-index:500;display:flex;align-items:center;gap:7px;pointer-events:none;background:#fffefaed;border:1px solid #dddeda;border-radius:7px;padding:8px 10px;font-size:9px;color:#687562;box-shadow:0 2px 12px #20352010;max-width:max-content}.map-hint svg{width:12px;height:12px}.map-bottom{height:42px;display:flex;align-items:center;justify-content:space-between;padding:0 17px;gap:8px;font-size:9px;color:#808977}.map-bottom>div{display:flex;align-items:center;gap:5px;flex-wrap:wrap}.legend-dot{width:6px;height:6px;border-radius:50%;margin-left:8px}.legend-dot:first-child{margin-left:0}.food-dot{background:var(--orange)}.explore-dot{background:#6e8b63}.transit-dot{background:#43808e}.map-bottom button{font-size:9px;color:#8c7350;white-space:nowrap}.map-bottom button.active{font-weight:700;color:var(--orange)}.notes-row{display:grid;grid-template-columns:repeat(3,1fr);margin-top:26px;border:1px solid var(--line);border-radius:12px;background:#efefe5;padding:21px 22px;gap:26px}.notes-row article{padding-right:26px;border-right:1px solid #dedfd1}.notes-row article:last-child{border:0;padding-right:0}.note-number{font-size:8px;letter-spacing:1px;color:#8a947c}.notes-row h3{font-size:12px;margin:7px 0 7px;font-weight:600}.notes-row p{font-size:10px;color:#7a8371;line-height:1.9;margin:0}footer{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:25px 0 29px;color:#939a89;font-size:8px}footer p{margin:0;line-height:1.7}.footer-logo{white-space:nowrap;font-weight:600;letter-spacing:1px}footer button{font-size:9px;white-space:nowrap;color:#7a846e}.timeline-intro{padding:21px 20px 14px}.small-label{font-size:9px;color:var(--orange);letter-spacing:1px}.timeline-intro h2{font-family:'Noto Serif SC',serif;font-size:24px;margin:7px 0 8px}.timeline-intro p{font-size:10px;line-height:1.9;color:var(--muted);margin:0}.train-setting{margin:0 18px 18px;padding:12px;background:#f0f2e9;border:1px solid #e0e4d7;border-radius:8px;display:flex;align-items:center;flex-wrap:wrap;gap:8px}.train-setting label{font-size:11px;flex:1}.train-setting input{font-size:13px;padding:4px 6px;background:var(--white);border:1px solid #d5dbcb;border-radius:4px;color:var(--ink);width:100px}.train-setting p{font-size:10px;line-height:1.8;margin:0;flex-basis:100%;color:#6e7c60}.train-setting p.warning{color:#b65c35}#timeline-list{max-height:465px;overflow:auto;padding:0 20px;scrollbar-width:thin;scrollbar-color:#d9ddcf transparent}.timeline-stop{display:grid;grid-template-columns:53px 1fr;position:relative;gap:14px;padding-bottom:23px}.timeline-stop:before{position:absolute;left:59px;top:11px;bottom:-2px;width:1px;background:#e2e5d9;content:''}.timeline-stop:last-child:before{display:none}.timeline-time{font-size:11px;font-family:Arial,sans-serif;color:#737f6a;padding-top:2px;line-height:1.5}.timeline-body:before{position:absolute;left:55px;top:4px;content:'';width:7px;height:7px;background:#90a27e;border-radius:50%;border:2px solid var(--white);box-sizing:content-box}.timeline-stop.highlight .timeline-body:before{background:var(--orange)}.timeline-stop.highlight .timeline-time{color:var(--orange);font-weight:700}.timeline-body h3{margin:0 0 5px;font-size:12px}.timeline-body p{font-size:10px;color:#818b77;line-height:1.9;margin:0}.timeline-body button{font-size:9px;color:var(--green);padding:5px 0 0;display:flex;gap:4px;align-items:center}.timeline-body button svg{width:10px;height:10px}.timeline-footnote{font-size:9px;color:#8b927f;line-height:1.9;margin:0 19px 17px;padding-top:11px;border-top:1px solid var(--line)}.custom-marker{background:none;border:none}.marker-bubble{width:29px;height:29px;border-radius:50% 50% 50% 4px;transform:rotate(-45deg);background:var(--orange);border:2px solid #fff;box-shadow:0 2px 8px #3444333d;display:grid;place-items:center;transition:transform .15s,background .15s;position:relative;color:#fff}.marker-bubble>span{transform:rotate(45deg);display:grid;place-items:center}.marker-bubble svg{width:14px;height:14px}.marker-bubble.explore{background:#6e8b63}.marker-bubble.transit{background:#43808e}.marker-bubble.selected{background:#263b35;transform:rotate(-45deg) scale(1.25);z-index:20}.marker-bubble.first{width:34px;height:34px;background:var(--orange)}.marker-bubble.first:after{position:absolute;inset:-6px;content:'';border:1px solid #cf654271;border-radius:50% 50% 50% 4px}.leaflet-container{font-family:inherit}.leaflet-popup-content-wrapper{border-radius:11px;box-shadow:0 8px 30px #20352026;padding:1px}.leaflet-popup-content{margin:15px 17px;width:225px!important}.popup-label{font-size:9px;color:var(--orange);margin-bottom:5px}.popup-title{font-size:14px;font-weight:700;color:var(--ink);margin-bottom:6px;line-height:1.6}.popup-note{font-size:10px;line-height:1.9;color:#77816d}.popup-hours{font-size:9px;margin:8px 0;color:#8d957f}.popup-actions{display:flex;gap:7px;margin-top:10px}.popup-actions a,.popup-actions button{font-size:10px;border-radius:5px;padding:8px 10px;flex:1;text-align:center;border:1px solid var(--line);color:var(--ink)}.popup-actions a{background:var(--green);border-color:var(--green);color:white}.leaflet-control-zoom{border:0!important;box-shadow:0 2px 10px #2239201c!important}.leaflet-control-zoom a{color:var(--ink)!important;border-color:var(--line)!important;width:31px!important;height:31px!important;line-height:31px!important;font-size:20px!important;background:var(--white)!important}.leaflet-control-attribution{font-size:8px!important;background:#fffefae0!important}.area-label{font-size:12px;color:#5b6a56;font-weight:600;white-space:nowrap;text-shadow:0 1px 3px #fff,0 -1px 3px #fff;pointer-events:none;letter-spacing:2px}.area-label small{display:block;font-size:8px;font-weight:400;letter-spacing:1px;margin-top:2px}.fallback-map{width:100%;height:100%;display:block}.fallback-message{position:absolute;top:14px;left:14px;right:14px;padding:9px 12px;border-radius:7px;background:#fffefae8;z-index:5;font-size:10px;color:#667860;line-height:1.7}.fallback-marker{cursor:pointer}.mobile-nav{display:none}dialog{max-width:530px;width:calc(100% - 40px);border:1px solid var(--line);border-radius:15px;background:var(--white);color:var(--ink);padding:24px;box-shadow:0 10px 60px #20352030}dialog::backdrop{background:#1d352c55;backdrop-filter:blur(3px)}.dialog-heading{display:flex;justify-content:space-between;align-items:center}.dialog-heading h2{font-size:18px;margin:0}.dialog-heading button{font-size:26px;padding:0 0 0 12px}dialog p{font-size:12px;line-height:2;color:#7c8572}#source-links{display:flex;flex-direction:column;gap:10px;margin:20px 0}#source-links a{font-size:12px;color:var(--green);padding-bottom:9px;border-bottom:1px solid var(--line)}.dialog-note{font-size:10px!important}#toast{position:fixed;left:50%;bottom:28px;transform:translate(-50%,20px);padding:12px 20px;background:var(--ink);color:white;font-size:12px;border-radius:8px;box-shadow:0 5px 25px #21372930;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;z-index:10000;white-space:nowrap}#toast.show{opacity:1;transform:translate(-50%,0)}
+@media(min-width:1450px){.workspace{grid-template-columns:410px minmax(0,1fr)}#map{height:650px}.places-list{height:562px}.intro{padding:35px 0 30px}}
+@media(max-width:1150px){.topbar{padding:0 25px}main{padding:0 25px}.workspace{grid-template-columns:345px minmax(0,1fr);gap:16px}.route-ribbon button{padding:7px 9px}.route-ribbon{gap:0}.route-ribbon i{width:28px;height:28px;font-size:15px}.route-ribbon button>span{font-size:11px}.route-ribbon small{font-size:8px}.route-arrow{display:none}.map-top{padding:0 12px}.map-count{display:none}.map-bottom{padding:0 10px;font-size:8px}.map-bottom button{font-size:8px}.map-hint{font-size:8px;left:10px;right:10px}.notes-row{gap:16px;padding:18px}.notes-row article{padding-right:16px}.trip-stamp{margin-right:0}}
+@media(max-width:850px){.topbar{height:75px;padding:0 18px}.brand{font-size:17px;gap:9px}.brand-symbol{width:35px;height:38px;font-size:22px}.brand small{font-size:6px;letter-spacing:1.6px}.trip-date{display:none}.header-actions{gap:6px}.button{font-size:10px;padding:8px 10px;min-height:35px}.header-actions .quiet{border:0;background:none;padding:8px}.header-actions .quiet b{display:none}.header-actions .quiet svg{width:15px}.header-actions .dark svg{width:14px}.header-actions .quiet{font-size:0;gap:0}.header-actions .quiet svg{width:20px;height:20px}main{padding:0 16px}.intro{padding:25px 0 22px;gap:15px}.eyebrow{font-size:9px;margin-bottom:8px}h1{font-size:28px;letter-spacing:.5px}.intro-description{font-size:11px;line-height:1.9;max-width:470px;margin-top:7px}.trip-stamp{width:79px;height:79px}.trip-stamp>span{font-size:5px;letter-spacing:1px}.trip-stamp strong{font-size:19px;margin:4px 0}.trip-stamp small{font-size:5px}.route-ribbon{margin-bottom:15px;padding:7px}.route-ribbon button{flex:0;gap:7px;padding:8px 11px}.route-ribbon .route-all{min-width:76px;margin-right:1px;padding:10px 8px}.route-ribbon button>span{font-size:11px}.route-ribbon small{font-size:8px}.workspace{display:flex;flex-direction:column;gap:15px}.map-panel{order:-1;width:100%;position:relative;top:0;border-radius:12px}.map-top{height:48px;padding:0 13px}.map-top strong{font-size:10px}.map-top .button{padding:6px 0}.map-count{display:inline;font-size:8px}#map{height:410px}.map-hint{bottom:48px;font-size:8px;padding:7px 9px;max-width:calc(100% - 20px)}.map-hint svg{width:10px;height:10px}.map-bottom{height:38px;padding:0 11px}.map-bottom>div{gap:4px}.legend-dot{margin-left:7px}.places-panel{width:100%;scroll-margin-top:15px}.panel-tabs{height:52px;padding:0 16px;justify-content:flex-start;gap:13px}.panel-tabs button{font-size:12px;padding:15px 4px 12px;margin-right:8px}.places-list{height:auto;max-height:760px;padding-bottom:8px;display:grid;grid-template-columns:1fr 1fr;gap:9px;padding:0 15px 15px;align-items:start}.place-card{margin:0;height:100%;padding:13px 12px}.card-title-area h3{font-size:12px}.search-wrap{margin-top:16px;height:42px}.search-wrap input{font-size:12px}.category-filters button{font-size:10px;padding:6px 10px}.card-note{font-size:10px}.results-heading{padding-top:4px;padding-bottom:13px}.notes-row{margin-top:18px;gap:18px;grid-template-columns:1fr;padding:20px}.notes-row article{border-right:0;border-bottom:1px solid #dedfd1;padding:0 0 16px}.notes-row article:last-child{padding-bottom:0}.notes-row h3{font-size:13px}.notes-row p{font-size:11px}.note-number{font-size:8px}footer{display:block;padding:22px 2px 92px;font-size:9px}footer p{margin:10px 0}footer button{padding:0;font-size:10px}.mobile-nav{position:fixed;bottom:0;left:0;right:0;display:flex;justify-content:space-around;background:#fffefaf5;border-top:1px solid var(--line);z-index:1100;padding:9px 8px calc(9px + env(safe-area-inset-bottom));backdrop-filter:blur(10px)}.mobile-nav button{display:flex;align-items:center;flex-direction:column;gap:4px;padding:2px 19px;font-size:9px;color:#7b8571}.mobile-nav button svg{width:18px;height:18px}.mobile-nav button.active{color:var(--orange)}#toast{bottom:84px;font-size:11px}.timeline-intro{padding:21px 20px 15px}#timeline-list{max-height:650px}.timeline-stop{padding-bottom:26px}.timeline-body h3{font-size:13px}.timeline-body p{font-size:11px}.timeline-time{font-size:12px}.train-setting{padding:13px}.train-setting p{font-size:11px}.timeline-footnote{font-size:10px}}
+@media(max-width:540px){.intro{align-items:flex-start}.trip-stamp{width:64px;height:64px;margin-top:8px}.trip-stamp strong{font-size:15px;letter-spacing:2px}.trip-stamp small{display:none}.trip-stamp>span{font-size:4px;letter-spacing:.6px}h1{font-size:25px;line-height:1.5}h1 span{display:block}.intro-description{font-size:10px;max-width:275px}.eyebrow{font-size:8px}.places-list{display:block;max-height:730px}.place-card{margin-bottom:10px;padding:15px}.card-title-area h3{font-size:14px}.card-subtitle{font-size:10px}.card-note{font-size:11px}.card-address{font-size:10px}.card-hours{font-size:10px}.nav-link{font-size:11px}.badge{font-size:9px}.card-icon{width:36px;height:37px}.save-place svg{width:19px;height:19px}#map{height:365px}.map-count{display:none}.map-top strong{font-size:10px}.map-top>div{gap:6px}.map-fit{font-size:9px}.map-bottom{font-size:7px}.map-bottom button{font-size:8px}.map-bottom>div{gap:3px}.legend-dot{width:5px;height:5px;margin-left:5px}.map-hint{font-size:7px}.panel-tabs{gap:6px}.panel-tabs button{margin-right:11px}.route-ribbon button{padding:7px 9px}.route-ribbon .route-all{font-size:10px;min-width:72px}.category-filters{gap:6px}.category-filters button{font-size:10px;padding:6px 9px}.trip-date{display:none}dialog{padding:20px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+/* Bundled map: immediately usable without third-party scripts or styles. */
+.atlas{position:relative;overflow:hidden;touch-action:none;cursor:grab;outline:none}.atlas:active{cursor:grabbing}.atlas:focus-visible{outline:3px solid #d68a58;outline-offset:-3px}.atlas-background,.atlas-route{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}.atlas-background{transition:opacity .2s}.atlas.streets-ready .atlas-background{opacity:0}.atlas-tiles,.atlas-markers{position:absolute;inset:0;pointer-events:none}.atlas-tiles{overflow:hidden}.atlas-tile{position:absolute;left:0;top:0;width:256px;height:256px}.atlas-tile-image,.atlas-tile-label{position:absolute;inset:0;width:256px;height:256px;max-width:none;user-select:none;pointer-events:none}.atlas-tile-image{opacity:0}.atlas-tile.loaded .atlas-tile-image{opacity:1}.atlas-tile-label{z-index:1}.atlas-marker{position:absolute;pointer-events:auto;transform:translate(-50%,-85%);width:31px;height:34px;display:grid;place-items:center;border-radius:50% 50% 50% 7px;background:#cf6542;border:2px solid white;color:white;box-shadow:0 2px 7px #21372940;cursor:pointer;padding:0}.atlas-marker svg{width:16px;height:16px}.atlas-marker.explore{background:#6e8b63}.atlas-marker.transit{background:#43808e}.atlas-marker.breakfast{box-shadow:0 0 0 4px #cf654235,0 3px 7px #21372940}.atlas-marker.selected{background:#263b35;width:37px;height:40px;z-index:10}.atlas-marker:hover{z-index:20;filter:brightness(1.1)}.atlas-status{position:absolute;top:12px;left:11px;max-width:calc(100% - 174px);padding:7px 10px;background:#fffefaf0;border:1px solid #d9ded2;border-radius:7px;box-shadow:0 2px 10px #2035200c;font-size:9px;line-height:1.7;color:#66785e;pointer-events:none}.atlas-controls{position:absolute;top:12px;right:10px;display:flex;gap:5px;align-items:center}.atlas-provider{font:inherit;font-size:9px;color:var(--ink);border:1px solid #d9ded2;border-radius:6px;padding:7px 5px;background:#fffefa;max-width:100px;min-height:31px}.atlas-retry{font-size:9px;padding:7px 6px;border:1px solid #d9ded2;border-radius:6px;background:#fffefa;min-height:31px}.atlas-zoom{position:absolute;top:57px;right:11px;display:flex;flex-direction:column;border:1px solid #d9ded2;border-radius:7px;overflow:hidden;box-shadow:0 2px 9px #20352012}.atlas-zoom button{width:32px;height:34px;background:#fffefa;font-size:22px;line-height:1;font-weight:400}.atlas-zoom button+button{border-top:1px solid #e2e5db}.atlas-credit{position:absolute;bottom:2px;right:2px;max-width:calc(100% - 4px);padding:3px 5px;background:#fffefaea;font-size:8px;color:#75816b;z-index:30;line-height:1.4}.atlas-credit a{display:inline-flex;align-items:center;gap:3px;color:#5d7757;text-decoration:underline}.atlas-credit img{width:20px;height:20px;object-fit:contain}.atlas-popup{position:absolute;width:270px;max-width:calc(100% - 20px);max-height:270px;overflow:auto;padding:16px;background:#fffefa;border:1px solid #dde1d4;box-shadow:0 5px 25px #20352030;border-radius:11px;z-index:40;cursor:default}.atlas-close{position:absolute;right:6px;top:4px;font-size:22px;line-height:1;padding:4px;color:#8d9780}.atlas-popup .popup-title{padding-right:12px}.atlas-popup .popup-actions{display:flex}.atlas-popup .popup-actions button,.atlas-popup .popup-actions a{cursor:pointer}.map-hint{bottom:72px}
+@media(max-width:850px){.atlas-status{font-size:8px;padding:6px 8px;max-width:calc(100% - 169px)}.atlas-provider,.atlas-retry{font-size:8px}.atlas-controls{gap:4px}.map-hint{bottom:66px}.atlas-popup{max-height:260px;padding:13px}.atlas-credit{font-size:7px}.atlas-credit img{width:16px;height:16px}}
+@media(max-width:380px){.atlas-status{max-width:calc(100% - 155px);font-size:7px;padding:5px 6px}.atlas-retry{padding:6px 4px}.atlas-provider{max-width:86px;padding:6px 2px}.atlas-controls{right:6px;gap:3px}.atlas-popup{width:250px}}
+
+</style>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Crect width=%2264%22 height=%2264%22 rx=%2215%22 fill=%22%23cf6542%22/%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="topbar">
+    <a href="#" class="brand" aria-label="香港漫游首页"><span class="brand-symbol">港</span><span>香港漫游<small>HONG KONG, IN A DAY</small></span></a>
+    <div class="trip-date"><span class="sun-symbol">☀</span><span>2026.10.28<small>周三 · 一日游</small></span></div>
+    <div class="header-actions"><button id="saved-top" class="button quiet"><span data-icon="heart"></span>我的备选 <b id="saved-count">0</b></button><button id="schedule-top" class="button dark"><span data-icon="clock"></span>看时间表</button></div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div><p class="eyebrow"><span></span> 一张地图，边逛边选</p><h1>沿路吃，<span>慢慢逛香港。</span></h1><p class="intro-description">09:15 饮早茶，伦敦大酒楼或金苑酒家二选一，再从九龙逛到港岛。陆路全程港铁／巴士，过海坐天星小轮；22:30高铁回程。</p></div>
+      <div class="trip-stamp"><span>LET’S WANDER</span><strong>港味<br>一日</strong><small>茶楼 · 海风 · 夜景</small></div>
+    </section>
+
+    <nav class="route-ribbon" aria-label="区域筛选">
+      <button class="route-all active" data-area="all">整条路线</button>
+      <button data-area="mk"><i style="--area:#d66a42">01</i><span>旺角<small>饮早茶 · 逛街</small></span></button><span class="route-arrow">→</span>
+      <button data-area="tst"><i style="--area:#388c98">02</i><span>尖沙咀<small>维港 · 天星小轮</small></span></button><span class="route-arrow">→</span>
+      <button data-area="central"><i style="--area:#9a7853">03</i><span>中环<small>午饭 · 文创 · 面包</small></span></button><span class="route-arrow">→</span>
+      <button data-area="wan"><i style="--area:#6e8b63">04</i><span>湾仔<small>购物 · 奶茶</small></span></button><span class="route-arrow">→</span>
+      <button data-area="peak"><i style="--area:#776b9f">05</i><span>太平山<small>夜景 · 回高铁站</small></span></button>
+    </nav>
+
+    <section class="workspace">
+      <aside class="places-panel" id="recommendations">
+        <div class="panel-tabs" role="tablist" aria-label="攻略内容"><button role="tab" aria-selected="true" id="tab-places" data-tab="places">沿路推荐 <span id="total-count"></span></button><button role="tab" aria-selected="false" id="tab-timeline" data-tab="timeline">建议时间表</button><button role="tab" aria-selected="false" id="tab-saved" data-tab="saved">我的备选</button></div>
+        <section id="places-view">
+          <div class="search-wrap"><span data-icon="search"></span><input id="search" type="search" placeholder="搜餐厅、地址、想吃的…" aria-label="搜索推荐地点"><button id="clear-search" aria-label="清空搜索" hidden>×</button></div>
+          <div class="category-filters" aria-label="类型筛选"></div>
+          <div class="results-heading"><span id="results-label"></span><button id="reset-filters">重置筛选</button></div>
+          <div id="places-list" class="places-list" aria-live="polite"></div>
+        </section>
+        <section id="timeline-view" hidden>
+          <div class="timeline-intro"><span class="small-label">你的散步节奏</span><h2>先饮茶，再看海。</h2><p>固定的是游览顺序，餐厅当天选。以下按 08:30 西九龙抵港设计。</p></div>
+          <div class="train-setting"><label for="return-time">回程高铁发车</label><input type="time" id="return-time" value="22:30"><p id="train-summary"></p></div>
+          <div id="timeline-list"></div>
+          <div class="timeline-footnote">步行、候船、排队与车程均为预估。若行程延误，先缩短逛街与加餐时间，回程以车票为准。</div>
+        </section>
+      </aside>
+
+      <section class="map-panel" id="map-section" aria-label="香港推荐地点互动地图">
+        <div class="map-top"><div><span class="map-live-dot"></span><strong id="map-heading">九龙到港岛，一路向南</strong><span class="map-count" id="map-count"></span></div><button id="fit-map" class="button map-fit"><span data-icon="expand"></span>全览路线</button></div>
+        <div id="map"><div id="map-loading" class="map-loading"><div class="loading-compass">港</div><strong>正在铺开香港地图…</strong><span>沿线推荐与导航入口已准备好</span></div></div>
+        <div class="map-hint"><span data-icon="pointer"></span><span>拖动地图或按＋／−缩放，点卡片定位。虚线仅示意区域连接。</span></div>
+        <div class="map-bottom"><div><span class="legend-dot food-dot"></span>餐厅与甜品<span class="legend-dot explore-dot"></span>逛街与景点<span class="legend-dot transit-dot"></span>码头与高铁</div><button id="show-detour">＋ 地茂馆支线</button></div>
+      </section>
+    </section>
+
+    <section class="notes-row"><article><span class="note-number">01 / 早茶二选一</span><h3>伦敦 / 金苑，09:15 饮茶</h3><p>抵港后先到旺角，伦敦大酒楼或金苑酒家任选一家，留一小时慢慢饮茶。稻香、一点心也保留作备选。</p></article><article><span class="note-number">02 / 吃什么当天决定</span><h3>不用把每一家都吃完</h3><p>Samsen 午市到 15:00，水记是港式午饭备选。Vission 和 Bakehouse 几乎相邻，选喜欢的一家就好。</p></article><article><span class="note-number">03 / 留好返程时间</span><h3>夜景看够，准时下山</h3><p>22:30高铁回程，21:30目标到站；建议19:45开始候车下山，乘15号到金钟，转荃湾线到佐敦再步行回站。</p></article></section>
+    <footer><span class="footer-logo">港 / 香港一日漫游</span><p>店铺资料核对至 2026.10.27 · 地图点位供方位参考，精确入口以店铺地址和导航为准。</p><button id="sources-button">资料来源 ↗</button></footer>
+  </main>
+
+  <nav class="mobile-nav" aria-label="移动端导航"><button data-mobile="map"><span data-icon="map"></span>地图</button><button data-mobile="places"><span data-icon="list"></span>推荐</button><button data-mobile="timeline"><span data-icon="clock"></span>行程</button><button data-mobile="saved"><span data-icon="heart"></span>备选</button></nav>
+  <dialog id="sources-dialog"><div class="dialog-heading"><h2>资料与出行提醒</h2><button id="close-sources" aria-label="关闭资料来源">×</button></div><p>营业时间是行前参考，不代表实时营业状态。地图标记为店铺附近位置，步行路线请点「去这里」交给导航。</p><div id="source-links"></div><p class="dialog-note">街道底图来自香港地政总署、OpenStreetMap 或 CARTO；路线位置示意由网页直接绘制。虚线为游览区域连接示意，并非实际步行、船舶或行车轨迹。收藏与回程时间仅保存在当前浏览器。</p></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script>
+window.HK_DATA = {
+  areas: {
+    mk: { name: '旺角', color: '#d66a42', center: [22.3191,114.1702], zoom: 15 },
+    tst: { name: '尖沙咀', color: '#388c98', center: [22.295,114.1719], zoom: 16 },
+    central: { name: '中环', color: '#9a7853', center: [22.2837,114.1556], zoom: 16 },
+    wan: { name: '湾仔', color: '#6e8b63', center: [22.277,114.1723], zoom: 16 },
+    peak: { name: '太平山', color: '#776b9f', center: [22.2714,114.1497], zoom: 16 },
+    transit: { name: '西九龙', color: '#43808e', center: [22.3033,114.1654], zoom: 15 },
+    detour: { name: '九龙城支线', color: '#ad8c6a', center: [22.3297,114.1905], zoom: 16 }
+  },
+  categories: [ ['all','全部'], ['tea','早茶'], ['snack','小食'], ['meal','正餐'], ['sweet','甜品'], ['explore','逛街景点'], ['transit','交通'] ],
+  places: [
+    {id:'london',name:'伦敦大酒楼',en:'London Restaurant',area:'mk',type:'tea',icon:'tea',lat:22.3167,lng:114.1702,address:'旺角弥敦道612号好望角大厦',hours:'07:00–23:00（平台所列）',badges:['早茶二选一 · 09:15–10:15','传统推车点心'],note:'与金苑酒家二选一，留一小时慢慢饮茶。可选虾饺、烧卖、鸡扎、肠粉；想体验老式酒楼就选这里。',recommended:true,source:'https://www.openrice.com/zh/hongkong/r-london-restaurant-mong-kok-guangdong-r7509',tags:'早饭 早餐 早上 推车 茶楼 鸡扎 椰皇燉奶'},
+    {id:'goldgarden',name:'金苑酒家',en:'Gold Garden · 胡社生行',area:'mk',type:'tea',icon:'tea',lat:22.3190,lng:114.1691,address:'旺角弥敦道655号胡社生行4楼',hours:'07:00起供应早市；平台列07:00–翌日03:00',badges:['早茶二选一 · 09:15–10:15','旺角站附近'],note:'早茶也可以选这里，与伦敦大酒楼并列。可点鲜虾饺、烧卖、叉烧包等粤式点心；直接到所选酒楼，不必两家都去。',recommended:true,source:'https://www.openrice.com/en/hongkong/r-gold-garden-roasted-pig-goose-restaurant-mong-kok-guangdong-seafood-r455106',tags:'金苑 早茶 早饭 早餐 早上 茶楼 鲜虾饺 烧卖 叉烧包'},
+    {id:'tao',name:'稻香渔港市集',en:'Tao Heung · 雅兰中心',area:'mk',type:'tea',icon:'tea',lat:22.3181,lng:114.1692,address:'旺角弥敦道639号雅兰中心3楼',hours:'早市 07:00–16:00',badges:['早茶备选','旺角中心'],note:'连锁酒楼，几个人点几笼、坐着喝茶很方便。与伦敦大酒楼二选一，吃完接旺角街区。',source:'https://www.taoheung.com.hk/tc/search/index.html?c=1&d=-2',tags:'早餐 早饭 点心 早上'},
+    {id:'onedim',name:'一点心（太子）',en:'One Dim Sum',area:'mk',type:'tea',icon:'tea',lat:22.3256,lng:114.1685,address:'太子通菜街209A–209B号地铺',hours:'09:00–23:00（平台所列）',badges:['太子方向','点心专门店'],note:'严格说在太子，适合先在北边吃、再往南逛旺角。可选虾饺、烧卖、鲜虾肠粉，预留候位时间。',source:'https://www.openrice.com/zh/hongkong/r-one-dim-sum-prince-edward-guangdong-dim-sum-r18164',tags:'早餐 早饭 虾饺 烧卖'},
+    {id:'dimdim',name:'点点心（旺角）',en:'Dim Dim Sum',area:'mk',type:'tea',icon:'tea',lat:22.3204,lng:114.171,address:'旺角通菜街106号地铺',hours:'11:00–23:00（平台所列）',badges:['11点后','早午餐备选'],note:'逛通菜街时顺便吃，适合晚一点的点心餐。可试脆皮鲜虾肠、真系菠萝包；不作为刚抵港的早餐。',source:'https://www.openrice.com/zh/hongkong/r-dim-dim-sum-mong-kok-guangdong-dim-sum-r610951',tags:'brunch 早午餐 点心'},
+    {id:'dognoodle',name:'十八座狗仔粉',en:'鸿禧大厦店',area:'mk',type:'snack',icon:'bowl',lat:22.3154,lng:114.1714,address:'旺角花园街1号鸿禧大厦地下1号铺',hours:'24小时营业（平台所列）',badges:['港式小食','早餐也可'],note:'狗仔粉、火鸭翅可以分着尝。早茶吃饱了就路过，不必再点一整餐；选这家南段分店更方便衔接尖沙咀。',source:'https://www.openrice.com/zh/hongkong/r-tower18-doggie-s-noodle-mong-kok-hong-kong-style-r1007193',tags:'火鸭翅 小吃 早餐'},
+    {id:'hesheeat',name:'HeSheEat',en:'THE FOREST 店',area:'mk',type:'sweet',icon:'cake',lat:22.3181,lng:114.172,address:'旺角奶路臣街17号THE FOREST地下G6号铺',hours:'11:30–23:00',badges:['11:30后','坐下歇一歇'],note:'梳乎厘班戟或牛乳芭菲，两人分一份就好。适合逛街后休息，早茶吃得满足也可以跳过。',source:'https://www.openrice.com/zh/hongkong/r-hesheeat-mong-kok-western-r807467',tags:'咖啡 甜点 西式 班戟 抹茶 冰淇淋'},
+    {id:'stars',name:'星光大道 · 维港海旁',en:'Avenue of Stars',area:'tst',type:'explore',icon:'camera',lat:22.2931,lng:114.1744,address:'尖沙咀星光大道，近K11 MUSEA海旁',hours:'户外海旁，按现场开放情况',badges:['看维港','往西走到码头'],note:'从K11 MUSEA附近下到海旁，沿维港往艺术馆、钟楼方向走。拍照、吹海风，留约40分钟。',tags:'海港 海景 拍照 K11 MUSEA 维多利亚港'},
+    {id:'clock',name:'钟楼 · 艺术馆外海旁',en:'Tsim Sha Tsui Clock Tower',area:'tst',type:'explore',icon:'camera',lat:22.2936,lng:114.1695,address:'尖沙咀梳士巴利道，香港文化中心附近',hours:'户外景点，按现场开放情况',badges:['顺路拍照','靠近天星码头'],note:'从星光大道一路往西逛到钟楼，不必折回。随后步行几分钟去天星码头乘船。',tags:'香港艺术馆 文化中心'},
+    {id:'tstferry',name:'尖沙咀天星码头',en:'Star Ferry · 往中环',area:'tst',type:'transit',icon:'ferry',lat:22.2934,lng:114.1681,address:'尖沙咀天星码头，中环航线入口',hours:'班次以天星小轮当日公告为准',badges:['跨海体验','乘普通渡轮'],note:'认准「中环」方向，不是湾仔方向。表中预留约20分钟候船及过海，登船后慢慢看维港两岸。',source:'https://www.starferry.com.hk/tc/service',tags:'船 渡轮 交通'},
+    {id:'centralferry',name:'中环天星码头',en:'Central Pier 7',area:'central',type:'transit',icon:'ferry',lat:22.2868,lng:114.1602,address:'中环7号码头',hours:'班次以天星小轮当日公告为准',badges:['下船进中环','天桥往IFC'],note:'下船后往IFC、行人天桥方向进入中环。到街市或午饭地点，预留约20–25分钟步行。',source:'https://www.starferry.com.hk/tc/service',tags:'船 渡轮 码头'},
+    {id:'shuikee',name:'水记牛腩牛杂',en:'Shui Kee',area:'central',type:'meal',icon:'bowl',lat:22.2834,lng:114.1535,address:'中环吉士笠街2号牌档',hours:'周一至五 11:30–17:30；周末及公众假期休息',badges:['港式午饭首选','周三有午市'],note:'点牛腩河或牛杂拼牛腩河，体验斜坡大牌档。部分部位可能提前卖完；扑空就转附近沾仔记。',source:'https://www.openrice.com/en/hongkong/r-shui-kee-central-hong-kong-style-noodles-rice-noodles-r3160',tags:'河粉 牛杂 牛腩粉 午餐 大排档'},
+    {id:'samsen',name:'Samsen Central',en:'泰式船面 · 中环店',area:'central',type:'meal',icon:'bowl',lat:22.2804,lng:114.156,address:'中环安兰街18号地下',hours:'午市 11:45–15:00；周三晚市 18:00–22:00',badges:['泰菜午饭备选','注意午市时间'],note:'想吃泰菜可选和牛船面，作为水记的替换。约14:00到店，若排队赶不上午市就换店；不等晚市拖慢后半程。',source:'https://www.samsen-hk.com/samsen-central',tags:'正餐 泰国 和牛 船面 午餐'},
+    {id:'tsimchai',name:'沾仔记',en:'Tsim Chai Kee · 威灵顿街',area:'central',type:'meal',icon:'bowl',lat:22.2832,lng:114.154,address:'中环威灵顿街98号地下',hours:'午后可作备选，营业时间以店铺当日为准',badges:['午饭后备','云吞面'],note:'水记卖完或临时休息时，步行转过来吃云吞面，继续接中环街市与半山扶梯。',source:'https://www.openrice.com/en/hongkong/r-tsim-chai-kee-noodle-central-guangdong-noodles-rice-noodles-r73433',tags:'鲜虾 鱼丸 鱼球 云吞 麦奀'},
+    {id:'market',name:'中环街市',en:'Central Market · 三家一起逛',area:'central',type:'explore',icon:'bag',lat:22.2846,lng:114.1545,address:'中环皇后大道中93号／德辅道中80号',hours:'SLOWOOD周三 11:00–21:00；其他商户各自营业',badges:['SLOWOOD','叮叮老香港办馆','雅俗共想'],note:'集中逛怀旧杂货、唱片旧物与生活用品。SLOWOOD在2楼231–233号铺；逛完从皇后大道中一侧接半山扶梯。',source:'https://www.centralmarket.hk/tc/shops-directory',tags:'slowood 叮叮办馆 雅俗共赏 雅俗共想 文创 唱片 黑胶 手信 杂货'},
+    {id:'bakehouse',name:'Bakehouse',en:'Soho · 士丹顿街',area:'central',type:'sweet',icon:'cake',lat:22.2817,lng:114.153,address:'中环士丹顿街5号地铺',hours:'08:00–21:00',badges:['酸种蛋挞','外带'],note:'想吃招牌酸种蛋挞就选这里。与Vission几乎相邻，不用为两家单独绕路；可以各买一件分着吃。',source:'https://www.bakehouse.hk/locations',tags:'蛋挞 面包 烘焙 甜点 酥皮'},
+    {id:'vission',name:'Vission Bakery',en:'士丹顿街店',area:'central',type:'sweet',icon:'cake',lat:22.28165,lng:114.15285,address:'中环士丹顿街7号LG/F',hours:'下午顺路选购，款式与营业以店铺当日为准',badges:['创意酥点','就在Bakehouse旁'],note:'想试不同口味的酥点可选这家，照当天柜台挑。沿半山扶梯上来买好，再经砵甸乍街一带下坡去港铁。',source:'https://www.vissionbakery.com/pages/contact',tags:'蛋挞 面包 烘焙 酥皮 甜点'},
+    {id:'2000fun',name:'2000Fun 电竞专门店',en:'湾仔电脑城',area:'wan',type:'explore',icon:'mouse',lat:22.2775,lng:114.1728,address:'湾仔轩尼诗道130号湾仔电脑城2楼202–204铺',hours:'11:00–20:00',badges:['买鼠标垫','电话 2332 0343'],note:'留约30分钟选鼠标垫。已有品牌、尺寸或型号的话，先打电话问库存，避免到店才发现缺货。',source:'https://www.openshop.com.hk/store_address.html',tags:'电脑 购物 外设 鼠标 滑鼠垫 游戏 电竞'},
+    {id:'mycup',name:'我杯茶',en:'My Cup of Tea',area:'wan',type:'snack',icon:'tea',lat:22.27615,lng:114.17365,address:'湾仔春园街6号永兴楼地铺',hours:'07:00–19:00（平台所列）',badges:['港式奶茶','菠萝油／三文治'],note:'买完鼠标垫来喝奶茶，配菠萝油、滑蛋或沙爹牛肉三文治。安排17点多到，留出点餐时间。',source:'https://www.openrice.com/zh/hongkong/r-my-cup-of-tea-wan-chai-hong-kong-style-r556630',tags:'奶茶 鴛鴦 菠萝包 小食 下午茶'},
+    {id:'kamfai',name:'金辉点心茶餐厅',en:'春园街店 · 下午可加插',area:'wan',type:'tea',icon:'tea',lat:22.27605,lng:114.17365,address:'湾仔春园街10号永兴楼地铺',hours:'05:00–21:00（平台所列）',badges:['我杯茶同一条街','按胃口加餐'],note:'这家在我杯茶旁边，下午顺路可以点两三笼。早茶、午饭都吃饱了就跳过，改去利东街散步。',source:'https://www.openrice.com/zh/hongkong/r-kam-fai-dim-sum-restaurant-wan-chai-hong-kong-style-r48397',tags:'金輝 点心 饮茶 晚饭'},
+    {id:'gresson',name:'金辉点心（机利臣街）',en:'注意：另一家地址',area:'wan',type:'tea',icon:'tea',lat:22.2765,lng:114.16984,address:'湾仔机利臣街6–14号地下C铺（部分平台记作10号）',hours:'05:30–16:00；部分平台列15:30收市',badges:['与春园街店分开看','下午抵达或已收市'],note:'如果你想的是机利臣街这家，要安排早一点到。按本页下午湾仔的节奏通常赶不上，因此只作地址提醒。',source:'https://kamfaidimsum.com/zh/visit.html',tags:'金輝 点心 早茶'},
+    {id:'leetung',name:'利东街',en:'Lee Tung Avenue',area:'wan',type:'explore',icon:'camera',lat:22.2755,lng:114.1719,address:'湾仔利东街，连接庄士敦道与皇后大道东',hours:'街区按现场开放情况，商户各自营业',badges:['吃饱后的散步备选','上山前逛一小段'],note:'不加吃金辉时，可以在附近走一走、拍几张照，再到皇后大道东乘15号巴士上山。',tags:'街景 散步 拍照'},
+    {id:'peakbus',name:'城巴15号 · 湾仔上山',en:'皇后大道东 · 往山顶',area:'wan',type:'transit',icon:'train',lat:22.2749,lng:114.1724,address:'湾仔皇后大道东汕头街／合和酒店一带，原厦门街站附近',hours:'候车前查城巴App，认准15号往山顶',badges:['巴士直上山顶','18:00开始前往车站'],note:'从春园街步行到皇后大道东上山方向巴士站。站名可能显示汕头街／合和酒店，实际以15号当日站牌为准。含步行、候车与上山预留约60–75分钟。',source:'https://www.citybus.com.hk/',tags:'交通 巴士 15 山顶 公交 厦门街 合和酒店 汕头街'},
+    {id:'jordan',name:'佐敦站 · 衔接西九龙',en:'Jordan MTR · 荃湾线',area:'transit',type:'transit',icon:'train',lat:22.3051,lng:114.1716,address:'港铁佐敦站，往香港西九龙高铁站步行方向',hours:'按港铁当日服务时间',badges:['西九龙步行约15–20分钟','抵港及回程都用到'],note:'抵港：西九龙步行至佐敦，乘荃湾线往荃湾方向到旺角。回程：金钟乘荃湾线往荃湾方向到佐敦，再步行回西九龙。',source:'https://www.mtr.com.hk/ch/customer/services/index.html',tags:'地铁 港铁 高铁 佐敦 金钟 荃湾线 交通'},
+    {id:'peak',name:'太平山顶 · 狮子亭',en:'Victoria Peak · 夜景收尾',area:'peak',type:'explore',icon:'mountain',lat:22.2716,lng:114.1501,address:'山顶狮子亭，近凌霄阁及山顶广场',hours:'户外观景，以现场开放情况为准',badges:['维港夜景','预留返程时间'],note:'从湾仔皇后大道东乘城巴15号往山顶，含候车预留约60–75分钟。看夜景后乘15号下山，在金钟转荃湾线到佐敦，再步行回西九龙。',tags:'太平山 凌霄阁 山顶 夜景'},
+    {id:'westkowloon',name:'香港西九龙高铁站',en:'Hong Kong West Kowloon Station',area:'transit',type:'transit',icon:'train',lat:22.3033,lng:114.1654,address:'香港西九龙站B1层票务大堂',hours:'按已购车票时间办理离港手续',badges:['08:30抵港假设','回程提前约1小时到站'],note:'回程高铁22:30，目标21:30到站。山顶15号巴士到金钟太古广场，转荃湾线到佐敦，再步行回站，合计预留约105分钟含候车及余量。',source:'https://www.highspeed.mtr.com.hk/sc/guide/process-departure.html',tags:'高铁 车站 西九龍 过关 回程'},
+    {id:'teimou',name:'地茂馆甜品（九龙城）',en:'Tei Mou Koon · 绕行备选',area:'detour',type:'sweet',icon:'cake',lat:22.3297,lng:114.1907,address:'九龙城福佬村道47号地铺',hours:'约12:30起；以店铺当日营业为准',badges:['偏离主线','不计入时间表'],note:'想吃传统糖水可收藏，但这家在九龙城，不在旺角。当天特意去会增加跨区交通，建议另留一次专程吃。',source:'https://www.openrice.com/zh/hongkong/r-tei-mou-koon-dessert-kowloon-city-hong-kong-style-sweet-soup-r3565',tags:'糖水 杏仁茶 合桃露 芝麻糊 地茂館'}
+  ],
+  schedule: [
+    {time:'08:30',title:'西九龙抵港 → 佐敦站 → 旺角',desc:'出站后步行约15–20分钟到佐敦站，乘荃湾线往荃湾方向，在旺角下车，再步行去所选早茶酒楼。实际到店约09:15–09:30。',place:'westkowloon'},
+    {time:'09:15',title:'伦敦大酒楼 / 金苑酒家 · 早茶二选一',desc:'参考09:15–10:15；出站较慢可顺延到09:30。伦敦在弥敦道612号，金苑在655号胡社生行4楼，两家任选一家。',place:'london',alternative:'goldgarden',highlight:true},
+    {time:'10:15',title:'旺角街区 · 随意逛',desc:'通菜街、花园街、西洋菜南街步行串联。狗仔粉等小食按胃口选，不必每家都吃。',place:'dognoodle'},
+    {time:'11:30',title:'HeSheEat · 甜品可选',desc:'两人分一份，约12:15离开。不吃就提早去尖沙咀。',place:'hesheeat'},
+    {time:'12:15',title:'港铁旺角 → 尖沙咀',desc:'荃湾线往中环方向直达尖沙咀，出站往K11 MUSEA及海旁走，包含步行约25分钟。',place:'stars'},
+    {time:'12:40',title:'星光大道 → 钟楼 → 天星码头',desc:'沿海旁往西走，约40分钟看维港、拍照，不折回。',place:'clock'},
+    {time:'13:20',title:'天星小轮 · 尖沙咀 → 中环',desc:'保留原定的维港渡轮体验。预留约20分钟候船和过海，认准中环方向。',place:'tstferry'},
+    {time:'13:40',title:'中环码头 → 午饭地点',desc:'经IFC、行人天桥步行进入中环，预留20–25分钟。',place:'centralferry'},
+    {time:'14:05',title:'水记 / Samsen / 沾仔记',desc:'午饭三选一。Samsen午市15:00结束，排队赶不上就换店；水记卖完可转沾仔记。',place:'shuikee'},
+    {time:'14:45',title:'中环街市 · 集中逛三家',desc:'SLOWOOD、叮叮老香港办馆、雅俗共想，留约50分钟。',place:'market'},
+    {time:'15:35',title:'半山扶梯 → 士丹顿街',desc:'Vission、Bakehouse选喜欢的一家；随后步行下坡到中环港铁站。',place:'bakehouse'},
+    {time:'16:10',title:'港岛线 · 中环 → 湾仔',desc:'往柴湾方向，在湾仔站下车，步行去湾仔电脑城。预留约25分钟含进出站。',place:'2000fun'},
+    {time:'16:35',title:'2000Fun · 买鼠标垫',desc:'湾仔电脑城2楼，留约30分钟选款式。',place:'2000fun'},
+    {time:'17:10',title:'我杯茶 · 奶茶与菠萝油',desc:'约17:35结束；附近金辉点心可作为替换或小份加餐，不必吃齐。',place:'mycup'},
+    {time:'17:35',title:'金辉点心 / 利东街 · 可选',desc:'最多再留25分钟，18:00前结束并往皇后大道东巴士站走。排队久就直接去候车。',place:'kamfai'},
+    {time:'18:00',title:'湾仔 → 城巴15号 → 山顶',desc:'步行往皇后大道东「汕头街／合和酒店」一带（原厦门街站附近），认准15号往山顶。含步行、候车和车程，预留约60–75分钟；以城巴当日站牌为准。',place:'peakbus'},
+    {time:'19:15',title:'山顶 · 狮子亭夜景',desc:'约30分钟短逛。先核对上方最晚候车下山时间，再决定停留多久，不安排绕山长走。',place:'peak'},
+    {dynamic:'leave',title:'候车下山 · 15号 → 金钟',desc:'在山顶巴士总站乘15号往中环，在「金钟—太古广场／金钟道」下车，步行进金钟站。整段回站合计留约105分钟，包含候车和步行余量。',place:'peak'},
+    {dynamic:'rail',title:'金钟 → 荃湾线 → 佐敦',desc:'乘荃湾线往荃湾方向到佐敦，再步行约15–20分钟进西九龙站B1票务大堂。此时刻只是衔接参考，以实际下山进度为准。',place:'jordan'},
+    {dynamic:'station',title:'21:30目标到站 · 安检与过关',desc:'高铁22:30发车，建议约21:30到B1大堂，留一小时办理离港手续；人多时再提前。',place:'westkowloon'},
+    {dynamic:'train',title:'22:30 · 高铁离港',desc:'按已购车票乘车。回程时间已设为22:30，可在上方调整。',place:'westkowloon'}
+  ]
+};
+
+</script>
+  <script>
+/* Self-contained map view. No third-party JavaScript or CSS is required. */
+(() => {
+  'use strict';
+  const NS = 'http://www.w3.org/2000/svg';
+  const clamp = (n, low, high) => Math.max(low, Math.min(high, n));
+  const project = (lat, lng, z) => {
+    const size = 256 * 2 ** z;
+    const s = Math.sin(clamp(lat, -85.05112878, 85.05112878) * Math.PI / 180);
+    return { x: (lng + 180) / 360 * size, y: (0.5 - Math.log((1 + s) / (1 - s)) / (4 * Math.PI)) * size };
+  };
+  const unproject = (x, y, z) => {
+    const size = 256 * 2 ** z;
+    return { lat: Math.atan(Math.sinh(Math.PI * (1 - 2 * y / size))) * 180 / Math.PI, lng: x / size * 360 - 180 };
+  };
+  function fit(points, width, height, maxZoom = 16) {
+    if (!points.length) return { lat: 22.2957, lng: 114.165, zoom: 13 };
+    const xy = points.map(p => project(p.lat, p.lng, 0));
+    const xs = xy.map(p=>p.x), ys=xy.map(p=>p.y);
+    const minX=Math.min(...xs),maxX=Math.max(...xs),minY=Math.min(...ys),maxY=Math.max(...ys);
+    const availableW=Math.max(100,width-95),availableH=Math.max(100,height-155);
+    const spanX=Math.max(.00002,maxX-minX),spanY=Math.max(.00002,maxY-minY);
+    const zoom=clamp(Math.floor(Math.log2(Math.min(availableW/spanX,availableH/spanY))),12,maxZoom);
+    return {...unproject((minX+maxX)/2,(minY+maxY)/2,0),zoom};
+  }
+  const make = (tag, cls, parent) => {
+    const n = document.createElement(tag); if(cls)n.className=cls;if(parent)parent.appendChild(n);return n;
+  };
+  const svgNode = (tag, attrs, parent) => {
+    const n=document.createElementNS(NS,tag);Object.entries(attrs).forEach(([k,v])=>n.setAttribute(k,String(v)));if(parent)parent.appendChild(n);return n;
+  };
+  const providers = [
+    {name:'香港街道图',url:(z,x,y)=>`https://mapapi.geodata.gov.hk/gs/api/v1.0.0/xyz/basemap/WGS84/${z}/${x}/${y}.png`,labels:(z,x,y)=>`https://mapapi.geodata.gov.hk/gs/api/v1.0.0/xyz/label/hk/tc/WGS84/${z}/${x}/${y}.png`,credit:'<a href="https://www.landsd.gov.hk/" target="_blank" rel="noopener noreferrer"><img src="https://api.hkmapservice.gov.hk/mapapi/landsdlogo.jpg" alt="地政总署" width="20" height="20"> Map from Lands Department</a>'},
+    {name:'浅色街道图',url:(z,x,y)=>`https://a.basemaps.cartocdn.com/rastertiles/voyager/${z}/${x}/${y}.png`,credit:'© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> · © <a href="https://carto.com/attributions" target="_blank" rel="noopener noreferrer">CARTO</a>'},
+    {name:'标准街道图',url:(z,x,y)=>`https://tile.openstreetmap.org/${z}/${x}/${y}.png`,credit:'© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a>'}
+  ];
+  class HKAtlas {
+    constructor(container, options) {
+      this.el=container;this.options=options;this.center={lat:22.2957,lng:114.165};this.zoom=13;
+      this.points=[];this.selected='london';this.popupId=null;this.tiles=new Map();this.source=0;this.generation=0;this.ready=false;this.pointers=new Map();this.frame=null;this.failTimer=null;
+      container.replaceChildren();container.classList.add('atlas');container.setAttribute('tabindex','0');container.setAttribute('aria-label','香港地图，可用加减按钮缩放、拖动移动，点地点查看详情');
+      this.background=document.createElementNS(NS,'svg');this.background.setAttribute('class','atlas-background');container.appendChild(this.background);
+      this.tilePane=make('div','atlas-tiles',container);
+      this.route=document.createElementNS(NS,'svg');this.route.setAttribute('class','atlas-route');container.appendChild(this.route);
+      this.markerPane=make('div','atlas-markers',container);
+      this.popupPane=make('div','atlas-popup',container);this.popupPane.hidden=true;
+      this.status=make('div','atlas-status',container);this.status.setAttribute('role','status');
+      this.controls=make('div','atlas-controls',container);
+      this.selector=make('select','atlas-provider',this.controls);this.selector.setAttribute('aria-label','选择底图');
+      [...providers.map((p,i)=>[String(i),p.name]),['-1','路线示意']].forEach(([value,name])=>{const option=make('option','',this.selector);option.value=value;option.textContent=name;});
+      this.selector.addEventListener('change',()=>this.setProvider(Number(this.selector.value)));
+      this.retry=make('button','atlas-retry',this.controls);this.retry.type='button';this.retry.textContent='重试底图';this.retry.addEventListener('click',()=>this.setProvider(this.source<0?0:this.source));
+      this.zoomPanel=make('div','atlas-zoom',container);
+      [['+','放大地图',1],['−','缩小地图',-1]].forEach(([label,title,d])=>{const b=make('button','',this.zoomPanel);b.type='button';b.textContent=label;b.setAttribute('aria-label',title);b.addEventListener('click',()=>this.zoomBy(d));});
+      this.credit=make('div','atlas-credit',container);
+      this.tilePane.addEventListener('dragstart',e=>e.preventDefault());
+      this.bindPointer();
+      container.addEventListener('keydown',e=>{
+        if(e.target!==container)return;
+        const keys={ArrowLeft:[-80,0],ArrowRight:[80,0],ArrowUp:[0,-80],ArrowDown:[0,80]};
+        if(keys[e.key]){e.preventDefault();const c=project(this.center.lat,this.center.lng,this.zoom);this.center=unproject(c.x+keys[e.key][0],c.y+keys[e.key][1],this.zoom);this.draw();}
+        else if(e.key==='+'||e.key==='='){e.preventDefault();this.zoomBy(1);}else if(e.key==='-'){e.preventDefault();this.zoomBy(-1);}else if(e.key==='Escape')this.closePopup();
+      });
+      container.addEventListener('wheel',e=>{if(!e.ctrlKey&&!e.metaKey)return;e.preventDefault();this.zoomBy(e.deltaY<0?1:-1);},{passive:false});
+      this.popupPane.addEventListener('click',e=>{if(e.target.closest('[data-close-map-popup]'))this.closePopup();});
+      if(typeof ResizeObserver!=='undefined'){this.observer=new ResizeObserver(()=>this.draw());this.observer.observe(container);}else window.addEventListener('resize',()=>this.draw());
+      this.setProvider(0);
+    }
+    dimensions(){return {width:this.el.clientWidth||760,height:this.el.clientHeight||628};}
+    point(lat,lng){const p=project(lat,lng,this.zoom),c=project(this.center.lat,this.center.lng,this.zoom),s=this.dimensions();return {x:p.x-c.x+s.width/2,y:p.y-c.y+s.height/2};}
+    setView(center,zoom){this.center={lat:center[0],lng:center[1]};this.zoom=clamp(Math.round(zoom),12,18);this.closePopup();this.draw();return this;}
+    flyTo(center,zoom){return this.setView(center,zoom);}
+    getZoom(){return this.zoom;}
+    setPoints(points,selected){this.points=points;this.selected=selected;if(!points.some(p=>p.id===this.popupId))this.popupId=null;this.draw();}
+    fitPoints(points){const s=this.dimensions();const f=fit(points,s.width,s.height);this.center={lat:f.lat,lng:f.lng};this.zoom=f.zoom;this.closePopup();this.draw();}
+    zoomBy(delta){const z=clamp(this.zoom+delta,12,18);if(z!==this.zoom){this.zoom=z;this.draw();}}
+    invalidateSize(){this.draw();}
+    isPopupOpen(id){return this.popupId===id;}
+    openPopup(id){this.popupId=id;this.drawMarkers();}
+    closePopup(){this.popupId=null;this.popupPane.hidden=true;}
+    focusPlace(p){this.setView([p.lat,p.lng],Math.max(16,this.zoom));this.openPopup(p.id);}
+    bindPointer(){
+      const isControl=e=>e.target.closest('button,a,select,.atlas-popup');
+      this.el.addEventListener('pointerdown',e=>{
+        if(isControl(e))return;this.el.focus({preventScroll:true});
+        this.pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});
+        try{this.el.setPointerCapture(e.pointerId);}catch{}
+        this.gesture={center:project(this.center.lat,this.center.lng,this.zoom),x:e.clientX,y:e.clientY,zoom:this.zoom,moved:false};
+        if(this.pointers.size===2){const [a,b]=[...this.pointers.values()];this.gesture.distance=Math.hypot(a.x-b.x,a.y-b.y);}
+      });
+      this.el.addEventListener('pointermove',e=>{
+        if(!this.pointers.has(e.pointerId)||!this.gesture)return;
+        this.pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});
+        if(this.pointers.size===2){const [a,b]=[...this.pointers.values()];const distance=Math.hypot(a.x-b.x,a.y-b.y);if(this.gesture.distance){const step=Math.round(Math.log2(distance/this.gesture.distance));this.zoom=clamp(this.gesture.zoom+step,12,18);}}
+        else{const dx=e.clientX-this.gesture.x,dy=e.clientY-this.gesture.y;if(Math.abs(dx)+Math.abs(dy)>4)this.gesture.moved=true;this.center=unproject(this.gesture.center.x-dx,this.gesture.center.y-dy,this.gesture.zoom);}
+        if(!this.frame)this.frame=requestAnimationFrame(()=>{this.frame=null;this.draw();});
+      });
+      const end=e=>{if(!this.pointers.has(e.pointerId))return;this.pointers.delete(e.pointerId);if(!this.gesture?.moved&&this.pointers.size===0)this.closePopup();this.gesture=null;this.draw();};
+      this.el.addEventListener('pointerup',end);this.el.addEventListener('pointercancel',end);
+    }
+    setProvider(index){
+      clearTimeout(this.failTimer);this.failTimer=null;this.generation++;this.source=index;this.ready=false;this.tiles.clear();this.tilePane.replaceChildren();
+      this.selector.value=String(index);this.credit.innerHTML=index<0?'路线位置示意 · 非道路导航图':providers[index].credit;
+      this.el.classList.remove('streets-ready');this.draw();
+      if(index>=0)this.armFallback();
+    }
+    armFallback(){
+      clearTimeout(this.failTimer);const g=this.generation;
+      this.failTimer=setTimeout(()=>{this.failTimer=null;if(g!==this.generation||this.ready)return;if(this.source<providers.length-1)this.setProvider(this.source+1);else{this.source=-1;this.selector.value='-1';this.tiles.clear();this.tilePane.replaceChildren();this.credit.textContent='路线位置示意 · 非道路导航图';this.draw();}},6000);
+    }
+    draw(){
+      this.drawBackground();this.drawRoutes();this.drawTiles();this.drawMarkers();
+      this.status.textContent=this.source<0?'路线示意 · 可点地点查看导航':this.ready?`${providers[this.source].name} · 可拖动和缩放`:'街道底图连接中 · 路线已显示';
+    }
+    drawBackground(){
+      const {width,height}=this.dimensions();this.background.setAttribute('viewBox',`0 0 ${width} ${height}`);this.background.replaceChildren();
+      svgNode('rect',{width,height,fill:'#cde5e5'},this.background);
+      const polygon=(coords,fill)=>svgNode('polygon',{points:coords.map(([lat,lng])=>{const p=this.point(lat,lng);return `${p.x},${p.y}`;}).join(' '),fill,stroke:'#d4dccb','stroke-width':1},this.background);
+      polygon([[22.38,114.08],[22.38,114.24],[22.299,114.24],[22.298,114.187],[22.294,114.181],[22.292,114.174],[22.293,114.166],[22.300,114.158],[22.306,114.155],[22.314,114.14],[22.32,114.08]],'#eaf0e4');
+      polygon([[22.27,114.08],[22.286,114.12],[22.289,114.145],[22.287,114.16],[22.281,114.175],[22.285,114.19],[22.29,114.22],[22.285,114.24],[22.24,114.24],[22.24,114.08]],'#e8efdf');
+      const labels=[['旺角',22.322,114.1745],['尖沙咀',22.2978,114.179],['中环',22.282,114.145],['湾仔',22.2787,114.18],['太平山',22.2685,114.147],['维多利亚港',22.2897,114.179]];
+      labels.forEach(([label,lat,lng])=>{const p=this.point(lat,lng);const t=svgNode('text',{x:p.x,y:p.y,fill:label==='维多利亚港'?'#7ca8aa':'#829075','font-size':label==='维多利亚港'?12:13,'text-anchor':'middle'},this.background);t.textContent=label;});
+    }
+    drawRoutes(){
+      const {width,height}=this.dimensions();this.route.setAttribute('viewBox',`0 0 ${width} ${height}`);this.route.replaceChildren();
+      const line=(points,color,dash)=>svgNode('polyline',{points:points.map(([lat,lng])=>{const p=this.point(lat,lng);return `${p.x},${p.y}`;}).join(' '),fill:'none',stroke:color,'stroke-width':2,'stroke-dasharray':dash,'stroke-linecap':'round',opacity:.7},this.route);
+      line([[22.3033,114.1654],[22.3051,114.1716],[22.319,114.1691],[22.2931,114.1744],[22.2934,114.1681]],'#58775e','5 7');
+      line([[22.2934,114.1681],[22.2868,114.1602]],'#318c9a','4 6');
+      line([[22.2868,114.1602],[22.2846,114.1545],[22.2817,114.153],[22.2775,114.1728],[22.27615,114.17365],[22.2716,114.1501],[22.2782,114.1647],[22.3051,114.1716],[22.3033,114.1654]],'#58775e','5 7');
+    }
+    drawTiles(){
+      if(this.source<0)return;
+      const {width,height}=this.dimensions(),c=project(this.center.lat,this.center.lng,this.zoom);
+      const left=c.x-width/2,top=c.y-height/2;
+      const minX=Math.floor(left/256),maxX=Math.floor((left+width)/256),minY=Math.floor(top/256),maxY=Math.floor((top+height)/256);
+      const wanted=new Set();const provider=providers[this.source],generation=this.generation;
+      for(let x=minX;x<=maxX;x++)for(let y=minY;y<=maxY;y++){
+        if(y<0||y>=2**this.zoom)continue;
+        const key=`${this.source}/${this.zoom}/${x}/${y}`;wanted.add(key);
+        let tile=this.tiles.get(key);
+        if(!tile){
+          const box=make('div','atlas-tile',this.tilePane);const image=make('img','atlas-tile-image',box);image.alt='';image.draggable=false;image.decoding='async';
+          tile={box,image,loaded:false};this.tiles.set(key,tile);
+          image.onload=()=>{if(generation!==this.generation||!this.tiles.has(key))return;tile.loaded=true;box.classList.add('loaded');this.ready=true;clearTimeout(this.failTimer);this.failTimer=null;this.updateAvailability();};
+          image.onerror=()=>{if(generation!==this.generation)return;box.classList.add('failed');this.updateAvailability();};
+          image.src=provider.url(this.zoom,x,y);
+          if(provider.labels){const label=make('img','atlas-tile-label',box);label.alt='';label.draggable=false;label.decoding='async';label.onerror=()=>label.remove();label.src=provider.labels(this.zoom,x,y);}
+        }
+        tile.box.style.transform=`translate(${Math.round(x*256-left)}px,${Math.round(y*256-top)}px)`;
+      }
+      for(const [key,tile]of this.tiles){if(!wanted.has(key)){tile.box.remove();this.tiles.delete(key);}}
+      this.updateAvailability();
+    }
+    updateAvailability(){
+      const visible=[...this.tiles.values()];const loaded=visible.filter(t=>t.loaded).length;
+      this.ready=loaded>0;
+      this.el.classList.toggle('streets-ready',visible.length>0&&loaded===visible.length);
+      this.status.textContent=this.source<0?'路线示意 · 可点地点查看导航':loaded?`${providers[this.source].name} · 可拖动和缩放`:'街道底图连接中 · 路线已显示';
+      if(!loaded&&visible.length&&!this.failTimer)this.armFallback();
+    }
+    drawMarkers(){
+      this.markerPane.replaceChildren();const size=this.dimensions();
+      this.points.forEach(p=>{const xy=this.point(p.lat,p.lng);if(xy.x<-40||xy.x>size.width+40||xy.y<-40||xy.y>size.height+40)return;
+        const b=make('button',`atlas-marker ${p.type==='explore'?'explore':p.type==='transit'?'transit':''} ${p.id===this.selected?'selected':''} ${p.recommended?'breakfast':''}`,this.markerPane);
+        b.type='button';b.style.left=`${xy.x}px`;b.style.top=`${xy.y}px`;b.title=p.name;b.setAttribute('aria-label',`地图地点：${p.name}`);b.innerHTML=this.options.icon(p.icon);
+        b.addEventListener('click',e=>{e.stopPropagation();this.options.onSelect(p.id);});
+      });
+      if(!this.popupId){this.popupPane.hidden=true;return;}
+      const p=this.points.find(p=>p.id===this.popupId);if(!p){this.closePopup();return;}
+      const xy=this.point(p.lat,p.lng);this.popupPane.hidden=false;this.popupPane.innerHTML=`<button type="button" class="atlas-close" data-close-map-popup aria-label="关闭地点详情">×</button>${this.options.popup(p)}`;
+      this.popupPane.style.left=`${clamp(xy.x-135,10,Math.max(10,size.width-280))}px`;
+      this.popupPane.style.top=`${clamp(xy.y-245,56,Math.max(56,size.height-290))}px`;
+    }
+  }
+  window.HKMapMath={project,unproject,fit};window.HKAtlas=HKAtlas;
+})();
+
+</script>
+  <script>
+(() => {
+  'use strict';
+  const DATA = window.HK_DATA;
+  const $ = (q) => document.querySelector(q);
+  const $$ = (q) => [...document.querySelectorAll(q)];
+  const icons = {
+    heart:'<path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/>',
+    clock:'<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+    search:'<circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/>',
+    expand:'<path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/>',
+    pointer:'<path d="m5 3 14 9-7 1-3 7Z"/>',
+    pin:'<path d="M20 10c0 6-8 11-8 11S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/>',
+    arrow:'<path d="M5 12h14m-5-5 5 5-5 5"/>',
+    tea:'<path d="M4 9h13v6a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V9Zm13 1h2a3 3 0 0 1 0 6h-2M7 3v3m4-4v4m4-3v3"/>',
+    bowl:'<path d="M3 11h18a9 9 0 0 1-18 0ZM9 21h6M7 3l10 6M11 2l9 6"/>',
+    cake:'<path d="M4 12h16v8H4ZM4 15c2 3 4-3 6 0s4-3 6 0 4 0 4 0M7 12V8h10v4M12 8V5"/><path d="M12 2c3 3 1 4 0 3-1 1-3 0 0-3Z"/>',
+    bag:'<path d="M4 7h16l-1 14H5L4 7ZM8 8V6a4 4 0 0 1 8 0v2"/>',
+    mouse:'<rect x="6" y="2" width="12" height="20" rx="6"/><path d="M12 3v7M6 10h12M12 6v1"/>',
+    camera:'<path d="M3 7h4l2-3h6l2 3h4v13H3Z"/><circle cx="12" cy="13" r="4"/>',
+    ferry:'<path d="m3 14 9-3 9 3-3 6H6ZM7 12V5h10v7M10 5V2h4v3M2 22c2-2 3 2 5 0s3 2 5 0 3 2 5 0 3 2 5 0"/>',
+    mountain:'<path d="m2 20 7-13 4 7 3-5 6 11H2ZM6 13l3 2 2-2M17 3l1 1m-5-1h1"/>',
+    train:'<rect x="5" y="3" width="14" height="16" rx="3"/><path d="M5 10h14M9 3v7M7 22l2-3m8 3-2-3M8 15h1m6 0h1"/>',
+    map:'<path d="m3 5 6-2 6 2 6-2v16l-6 2-6-2-6 2V5Zm6-2v16m6-14v16"/>',
+    list:'<path d="M8 6h13M8 12h13M8 18h13M3 6h.1M3 12h.1M3 18h.1"/>'
+  };
+  const svg = (name) => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${icons[name] || icons.pin}</svg>`;
+  $$('[data-icon]').forEach(el => el.innerHTML = svg(el.dataset.icon));
+  const escape = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const safeRead = (key, fallback) => { try { return JSON.parse(localStorage.getItem(key)) ?? fallback; } catch { return fallback; } };
+  const initialSaved = safeRead('hk-day-saved-v1', []);
+  let saved = new Set(Array.isArray(initialSaved) ? initialSaved.filter(id => DATA.places.some(p => p.id === id)) : []);
+  let area = 'all', category = 'all', tab = 'places', query = '', selectedId = 'london', showDetour = false;
+  let map, mapReady = false;
+  let toastTimer, visiblePlaces = [];
+  const persist = (key, value) => { try { localStorage.setItem(key, JSON.stringify(value)); } catch {} };
+  const mapsUrl = p => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.name + ' ' + p.address + ' 香港')}`;
+  const typeName = p => DATA.categories.find(c => c[0] === p.type)?.[1] || '地点';
+  const markerClass = p => p.type === 'explore' ? 'explore' : p.type === 'transit' ? 'transit' : '';
+  const savedTrain = safeRead('hk-day-train-v2', '22:30');
+  $('#return-time').value = typeof savedTrain === 'string' && /^([01]\d|2[0-3]):[0-5]\d$/.test(savedTrain) ? savedTrain : '22:30';
+
+  function toast(message) { $('#toast').textContent = message; $('#toast').classList.add('show'); clearTimeout(toastTimer); toastTimer = setTimeout(() => $('#toast').classList.remove('show'), 2200); }
+  function isSaved(id) { return saved.has(id); }
+  function toggleSave(id) {
+    const p = DATA.places.find(p => p.id === id); if (!p) return;
+    if (saved.has(id)) { saved.delete(id); toast('已移出备选'); } else { saved.add(id); toast('已加入我的备选'); }
+    const wasOpen = map?.isPopupOpen(id);
+    persist('hk-day-saved-v1', [...saved]);
+    $('#saved-count').textContent = saved.size;
+    renderPlaces();
+    if (wasOpen) map?.openPopup(id);
+  }
+
+  function getVisible() {
+    return DATA.places.filter(p => {
+      if (p.area === 'detour' && !showDetour && tab !== 'saved' && !query) return false;
+      if (tab === 'saved' && !saved.has(p.id)) return false;
+      if (area !== 'all' && p.area !== area) return false;
+      if (category !== 'all' && p.type !== category) return false;
+      return !query || [p.name,p.en,p.address,p.note,p.tags,DATA.areas[p.area].name].join(' ').toLowerCase().includes(query);
+    });
+  }
+  function card(p) {
+    const active = p.id === selectedId;
+    return `<article class="place-card ${p.recommended?'recommended ':''}${active?'selected':''}" data-place="${p.id}" tabindex="0" role="button" aria-label="在地图查看${escape(p.name)}" aria-pressed="${active}">
+      <div class="card-top"><span class="card-icon ${markerClass(p)}">${svg(p.icon)}</span><div class="card-title-area"><h3>${escape(p.name)}</h3><div class="card-subtitle">${escape(p.en)} · ${escape(DATA.areas[p.area].name)}</div></div><button class="save-place ${isSaved(p.id)?'saved':''}" data-save="${p.id}" aria-label="${isSaved(p.id)?'移出':'加入'}备选：${escape(p.name)}" aria-pressed="${isSaved(p.id)}">${svg('heart')}</button></div>
+      <div class="badge-line">${p.badges.map((b,i)=>`<span class="badge ${i===0 && (p.recommended || p.id==='samsen' || p.area==='detour')?'orange':''}">${escape(b)}</span>`).join('')}</div>
+      <p class="card-note">${escape(p.note)}</p><div class="card-address">${svg('pin')}<span>${escape(p.address)}</span></div>
+      <div class="card-footer"><span class="card-hours">${svg('clock')}${escape(p.hours)}</span><a class="nav-link" href="${mapsUrl(p)}" target="_blank" rel="noopener noreferrer" aria-label="导航到${escape(p.name)}">去这里${svg('arrow')}</a></div>
+    </article>`;
+  }
+  function renderPlaces(updateMap = true) {
+    visiblePlaces = getVisible();
+    $('#total-count').textContent = DATA.places.filter(p=>p.area!=='detour').length;
+    $('#saved-count').textContent = saved.size;
+    const label = tab === 'saved' ? `已收藏 ${saved.size} 处 · 当前显示 ${visiblePlaces.length} 处` : `${area==='all'?'沿路推荐':DATA.areas[area].name} · ${visiblePlaces.length} 个地点`;
+    $('#results-label').textContent = label;
+    $('#map-count').textContent = `${visiblePlaces.length} 处推荐`;
+    $('#map-heading').textContent = area === 'all' ? (tab === 'saved' ? '把喜欢的，留在地图上' : '九龙到港岛，一路向南') : `${DATA.areas[area].name} · 沿路挑着逛`;
+    $('#clear-search').hidden = !query;
+    if (visiblePlaces.length) $('#places-list').innerHTML = visiblePlaces.map(card).join('');
+    else $('#places-list').innerHTML = `<div class="empty-state"><div class="empty-icon">${tab==='saved'?'♡':'⌕'}</div><h3>${tab==='saved' && !saved.size?'先留几家喜欢的店':'暂时没有匹配地点'}</h3><p>${tab==='saved' && !saved.size?'点卡片右上角的爱心，<br>把想去的地方收进这份备选清单。':'换个关键词，或清空区域和类型筛选。'}</p><button id="empty-reset">${tab==='saved' && !saved.size?'去看沿路推荐':'清空筛选'}</button></div>`;
+    $('#empty-reset')?.addEventListener('click', () => { if(tab==='saved' && !saved.size) setTab('places'); resetFilters(); });
+    if (updateMap) renderMarkers();
+  }
+  function setTab(next) {
+    tab = next;
+    $$('.panel-tabs button').forEach(el => el.setAttribute('aria-selected', String(el.dataset.tab === next)));
+    $('#timeline-view').hidden = next !== 'timeline'; $('#places-view').hidden = next === 'timeline';
+    if(next === 'saved') { area='all';category='all';query='';$('#search').value='';syncFilters(); }
+    if(next !== 'timeline') renderPlaces();
+    else { renderTimeline(); renderMarkers(true); }
+  }
+  function syncFilters() {
+    $$('.route-ribbon [data-area]').forEach(el => el.classList.toggle('active',el.dataset.area === area));
+    $$('.category-filters button').forEach(el=>el.classList.toggle('active',el.dataset.category===category));
+  }
+  function resetFilters() { area='all';category='all';query='';$('#search').value='';syncFilters();renderPlaces();fitMap(); }
+  function chooseArea(next) {
+    area = next;
+    if(tab === 'timeline') setTab('places');
+    syncFilters(); renderPlaces();
+    if(mapReady && map) { if(next === 'all') fitMap(); else map.flyTo(DATA.areas[next].center,DATA.areas[next].zoom,{duration:.65}); }
+  }
+  function choosePlace(id, fromMap=false) {
+    const p = DATA.places.find(p=>p.id===id); if(!p) return;
+    selectedId=id;
+    if(p.area==='detour') {showDetour=true;$('#show-detour').classList.add('active');}
+    if(tab==='timeline') { tab='places';$('#timeline-view').hidden=true;$('#places-view').hidden=false;$$('.panel-tabs button').forEach(el=>el.setAttribute('aria-selected',String(el.dataset.tab==='places'))); }
+    if(!getVisible().some(x=>x.id===id)) { area='all';category='all';query='';$('#search').value='';if(tab==='saved'&&!saved.has(id))tab='places';syncFilters(); }
+    renderPlaces();
+    if(mapReady && map) {
+      map.focusPlace(p);
+    }
+    if(fromMap) { const el=$(`[data-place="${id}"]`);const list=$('#places-list');if(el)list.scrollTo({top:el.offsetTop-list.offsetTop-10,behavior:'smooth'}); }
+    else if(innerWidth <=850) $('#map-section').scrollIntoView({behavior:'smooth',block:'start'});
+  }
+
+  function timeMinutes(value) { const [h,m]=value.split(':').map(Number);return h*60+m; }
+  function toTime(value) { value=((value%1440)+1440)%1440;return `${String(Math.floor(value/60)).padStart(2,'0')}:${String(value%60).padStart(2,'0')}`; }
+  function renderTimeline() {
+    const value=$('#return-time').value || '22:30';const train=timeMinutes(value);const leave=train-165,station=train-60;
+    const early=train<22*60+30;
+    $('#train-summary').innerHTML=`建议 <b>${toTime(leave)}</b> 开始候车下山，<b>${toTime(station)}</b> 到站。${early?'回程比示范早，请压缩下午逛街与加餐，必要时跳过山顶。':'以上含约105分钟公共交通＋约1小时到站办手续；候车久或堵车时再提前。'}`;
+    $('#train-summary').classList.toggle('warning',early);
+    $('#timeline-list').innerHTML=DATA.schedule.map(s=>{
+      let t=s.time;if(s.dynamic)t=toTime(s.dynamic==='leave'?leave:s.dynamic==='rail'?train-100:s.dynamic==='station'?station:train);
+      const title=s.dynamic==='station'?'到西九龙站 · 安检与过关':s.dynamic==='train'?'高铁离港':s.title;
+      const desc=s.dynamic==='station'?`高铁${toTime(train)}发车，建议约${toTime(station)}到B1大堂，留一小时办理离港手续；人多时再提前。`:s.dynamic==='train'?'按已购车票乘车，发车时间以车票为准。':s.desc;
+      return `<article class="timeline-stop ${s.highlight?'highlight':''}"><div class="timeline-time">${t}</div><div class="timeline-body"><h3>${escape(title)}</h3><p>${escape(desc)}</p>${[s.place,s.alternative].filter(Boolean).map(id=>`<button data-timeline-place="${id}">${svg('pin')}${s.alternative?escape(DATA.places.find(p=>p.id===id).name):'地图看看'}</button>`).join('')}</div></article>`;
+    }).join('');
+    if(early) { const n=document.createElement('p');n.className='timeline-footnote';n.textContent='提醒：上面08:30–19:15为原始参考安排。新的下山时间若早于观景时间，请先删减或提前下午项目，不能直接照表执行。';$('#timeline-list').prepend(n); }
+    persist('hk-day-train-v2',value);
+  }
+  function popup(p) {
+    return `<div class="popup-label">${escape(DATA.areas[p.area].name)} / ${escape(typeName(p))}</div><div class="popup-title">${escape(p.name)}</div><div class="popup-note">${escape(p.note)}</div><div class="popup-hours">${escape(p.hours)}</div><div class="popup-actions"><a href="${mapsUrl(p)}" target="_blank" rel="noopener noreferrer">去这里 ↗</a><button data-popup-save="${p.id}">${isSaved(p.id)?'♥ 已收藏':'♡ 加入备选'}</button></div>`;
+  }
+  function renderMarkers(timelineMode=false) {
+    if(!mapReady || !map) return;
+    const list=timelineMode||tab==='timeline'?DATA.places.filter(p=>p.area!=='detour'):getVisible();
+    map.setPoints(list, selectedId);
+    $('#map-count').textContent=`${list.length} 处推荐`;
+  }
+  function fitMap() {
+    if(!mapReady || !map) return;
+    let list=tab==='timeline'?DATA.places.filter(p=>p.area!=='detour'):getVisible();
+    if(!list.length)list=DATA.places.filter(p=>p.area!=='detour');
+    map.fitPoints(list);
+  }
+  function initMap() {
+    map=new HKAtlas($('#map'),{icon:svg,popup,onSelect:id=>choosePlace(id,true)});
+    mapReady=true;renderMarkers();fitMap();
+  }
+
+  $('.category-filters').innerHTML=DATA.categories.map(([id,name])=>`<button data-category="${id}" class="${id==='all'?'active':''}">${name}</button>`).join('');
+  $$('.category-filters button').forEach(el=>el.addEventListener('click',()=>{category=el.dataset.category;syncFilters();renderPlaces();fitMap();}));
+  $$('.route-ribbon [data-area]').forEach(el=>el.addEventListener('click',()=>chooseArea(el.dataset.area)));
+  $$('.panel-tabs [data-tab]').forEach(el=>el.addEventListener('click',()=>setTab(el.dataset.tab)));
+  $('#search').addEventListener('input',e=>{query=e.target.value.trim().toLowerCase();renderPlaces();});
+  $('#clear-search').addEventListener('click',()=>{query='';$('#search').value='';renderPlaces();$('#search').focus();});
+  $('#reset-filters').addEventListener('click',resetFilters);
+  $('#fit-map').addEventListener('click',fitMap);
+  $('#return-time').addEventListener('change',renderTimeline);
+  $('#schedule-top').addEventListener('click',()=>{setTab('timeline');if(innerWidth<=850)$('#recommendations').scrollIntoView({behavior:'smooth'});});
+  $('#saved-top').addEventListener('click',()=>{setTab('saved');if(innerWidth<=850)$('#recommendations').scrollIntoView({behavior:'smooth'});fitMap();});
+  $('#show-detour').addEventListener('click',()=>{showDetour=!showDetour;$('#show-detour').classList.toggle('active',showDetour);$('#show-detour').textContent=showDetour?'− 隐藏地茂馆支线':'＋ 地茂馆支线';if(showDetour){area='all';category='all';query='';$('#search').value='';if(tab!=='places')setTab('places');syncFilters();renderPlaces();choosePlace('teimou');}else{if(selectedId==='teimou')selectedId='london';renderPlaces();fitMap();}});
+  document.addEventListener('click',e=>{
+    const saveButton=e.target.closest('[data-save],[data-popup-save]');if(saveButton){e.preventDefault();e.stopPropagation();toggleSave(saveButton.dataset.save||saveButton.dataset.popupSave);return;}
+    const nav=e.target.closest('.nav-link');if(nav)return;
+    const timelineButton=e.target.closest('[data-timeline-place]');if(timelineButton){choosePlace(timelineButton.dataset.timelinePlace);return;}
+    const fallbackPoint=e.target.closest('[data-fallback]');if(fallbackPoint){choosePlace(fallbackPoint.dataset.fallback,true);return;}
+    const placeCard=e.target.closest('[data-place]');if(placeCard)choosePlace(placeCard.dataset.place);
+  });
+  document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches('[data-place],[data-fallback]')){e.preventDefault();choosePlace(e.target.dataset.place||e.target.dataset.fallback);}});
+  $$('.mobile-nav button').forEach(el=>el.addEventListener('click',()=>{const next=el.dataset.mobile;$$('.mobile-nav button').forEach(b=>b.classList.toggle('active',b===el));if(next==='map'){$('#map-section').scrollIntoView({behavior:'smooth'});map?.invalidateSize();}else{setTab(next);$('#recommendations').scrollIntoView({behavior:'smooth'});}}));
+  const sourceLinks=[['伦敦大酒楼 · 地址与营业时间',DATA.places.find(p=>p.id==='london').source],['金苑酒家 · 地址与营业时间',DATA.places.find(p=>p.id==='goldgarden').source],['稻香 · 官方分店资料',DATA.places.find(p=>p.id==='tao').source],['旺角一点心 · 地址与营业时间',DATA.places.find(p=>p.id==='onedim').source],['天星小轮 · 航线与班次','https://www.starferry.com.hk/tc/service'],['Samsen · 官方午晚市时间','https://www.samsen-hk.com/samsen-central'],['SLOWOOD · 官方门店资料','https://www.slowood.hk/zh/pages/connect-to-slowood'],['2000Fun · 官方门市资料','https://www.openshop.com.hk/store_address.html'],['城巴 · 15号实时到站与站点','https://www.citybus.com.hk/'],['香港地政总署 · 官方底图说明','https://hosting.csdi.gov.hk/csdi-webpage/apidoc/TopographicMapAPI'],['港铁高铁 · 乘车流程','https://www.highspeed.mtr.com.hk/sc/guide/process-departure.html']];
+  $('#source-links').innerHTML=sourceLinks.map(([name,url])=>`<a href="${url}" target="_blank" rel="noopener noreferrer">${escape(name)} ↗</a>`).join('');
+  $('#sources-button').addEventListener('click',()=>$('#sources-dialog').showModal());$('#close-sources').addEventListener('click',()=>$('#sources-dialog').close());$('#sources-dialog').addEventListener('click',e=>{if(e.target===$('#sources-dialog')){const r=e.target.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)e.target.close();}});
+  renderPlaces();renderTimeline();initMap();
+})();
+
+</script>
+</body>
+</html>
